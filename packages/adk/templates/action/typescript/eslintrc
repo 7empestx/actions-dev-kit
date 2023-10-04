@@ -60,7 +60,7 @@ module.exports = {
 
     // Max line lengths
     'max-len': ['error', {
-      code: 150,
+      code: 100,
       ignoreUrls: true, // Most common reason to disable it
       ignoreStrings: true, // These are not fantastic but necessary for error messages
       ignoreTemplateLiterals: true,
